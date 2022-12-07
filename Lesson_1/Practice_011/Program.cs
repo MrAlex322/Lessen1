@@ -2,10 +2,8 @@
 Console.WriteLine("Введите число");
 int num = int.Parse(Console.ReadLine());
 int count = 1;
-    while ( count <= num)
-    {
-    Console.WriteLine(count*count*count);
+while (count <= num)
+{
+    Console.WriteLine(count * count * count);
     count++;
-    }
-
-
+}
